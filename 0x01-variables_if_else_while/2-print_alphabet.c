@@ -10,11 +10,10 @@
 int main(void)
 {
 	int n;
+	int i;
 
 	srand(time(0));
-	n = rand() - RAND_MAX / 2;
-
-	int i;
+	n = rand() - RAND_MAX / 2;	
 
 	for (i = 0; i < 26; i++)
 		putchar(97 + i);
